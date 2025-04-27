@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box; /* Box-sizing model */
+    margin: 0; /* Reset margin for all elements */
+    padding: 0; /* Reset padding for all elements */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set a clean font for the page */
+    background-color: #f4f4f4; /* Light gray background color */
+}
+
+.container {
+    max-width: 600px; /* Maximum width of the form container */
+    margin: 40px auto; /* Center the container */
+    background-color: white; /* White background for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the container */
+}
+
+h1 {
+    text-align: center; /* Center align header text */
+    color: #007bb5; /* Brand color for the header */
+    margin-bottom: 20px; /* Space below header */
+}
+
+label {
+    font-weight: bold; /* Bold text for labels */
+    margin-bottom: 5px; /* Space below labels */
+    display: block; /* Make labels occupy their own line */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Full width of the input fields */
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space below input fields */
+    border: 1px solid #ccc; /* Light gray border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #007bb5; /* Change border color on focus */
+    outline: none; /* Remove outline on focus */
+}
+
+button[type="submit"] {
+    background-color: #007bb5; /* Button color */
+    color: white; /* Text color for button */
+    border: none; /* No border for button */
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 5px; /* Rounded corners for button */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Cursor pointer on hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #005f8d; /* Darker shade on hover */
+}
+
+.footer {
+    text-align: center; /* Center align text in footer */
+    margin-top: 20px; /* Space above footer */
+    font-size: 12px; /* Font size for footer */
+    color: #777; /* Light gray color for footer text */
+}

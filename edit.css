@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    margin: 0; /* Reset margin for all elements */
+    padding: 0; /* Reset padding for all elements */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Use Arial font for the body */
+    background-color: #f2f2f2; /* Light gray background */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+/* Container to hold the content */
+.container {
+    padding: 20px; /* Padding inside container */
+    max-width: 900px; /* Max width for the container */
+    margin: 20px auto; /* Center align container */
+    background-color: white; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Main header style */
+h1 {
+    margin-bottom: 20px; /* Marginal space below the heading */
+    color: #007BFF; /* Brand color */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse cell borders */
+    background-color: white; /* White background for table */
+}
+
+th, td {
+    padding: 12px; /* Padding inside each cell */
+    border: 1px solid #ccc; /* Light gray border for cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #007BFF; /* Brand color for header */
+    color: white; /* White text for header */
+}
+
+/* Button styles */
+button {
+    padding: 6px 10px; /* Padding inside buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 5px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button colors */
+.view-btn {
+    background-color: #17a2b8; /* Teal */
+    color: white; /* White text */
+}
+
+.edit-btn {
+    background-color: #ffc107; /* Yellow */
+    color: white; /* White text */
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red */
+    color: white; /* White text */
+}
+
+/* Modal overlay */
+.modal-overlay {
+    position: fixed; /* Fixed position */
+    top: 0; /* Top of the viewport */
+    left: 0; /* Left of the viewport */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    display: none; /* Hidden by default */
+    z-index: 999; /* On top of other elements */
+}
+
+/* Modal styles */
+.modal {
+    position: fixed; /* Fixed position */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center positioning */
+    background: white; /* White background */
+    padding: 20px; /* Padding inside modal */
+    width: 400px; /* Fixed width */
+    max-width: 90%; /* Responsive max width */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    z-index: 1000; /* On top of overlay */
+    display: none; /* Hidden by default */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Modal header */
+.modal-header {
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold header */
+    margin-bottom: 10px; /* Space below header */
+}
+
+/* Footer for modal */
+.modal-footer {
+    margin-top: 20px; /* Space above footer */
+    text-align: right; /* Align footer text to the right */
+}
+
+/* Close button style for modal */
+.close-btn {
+    background-color: #6c757d; /* Gray */
+    color: white; /* White text */
+}
